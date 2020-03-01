@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF02A4AE21CD13B200FF6CA8 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02A4AD21CD13B200FF6CA8 /* TCPClient.swift */; };
+		CF064BCF21D0EB120051F53A /* SpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF064BCE21D0EB120051F53A /* SpotifyViewController.swift */; };
+		CF3DF40D21D26701004B44D6 /* DesktopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DF40C21D26701004B44D6 /* DesktopViewController.swift */; };
+		CF560CC821CE8A4100FFD8A8 /* AllRemotesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF560CC721CE8A4100FFD8A8 /* AllRemotesCollectionViewController.swift */; };
+		CF560CCA21CE8E0200FFD8A8 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF560CC921CE8E0200FFD8A8 /* ConnectViewController.swift */; };
+		CF560CCC21CE8E2300FFD8A8 /* NetflixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF560CCB21CE8E2300FFD8A8 /* NetflixViewController.swift */; };
+		CFC7DAE721CBFDED00ABBDB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC7DAE621CBFDED00ABBDB0 /* AppDelegate.swift */; };
+		CFC7DAE921CBFDED00ABBDB0 /* RemoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC7DAE821CBFDED00ABBDB0 /* RemoteViewController.swift */; };
+		CFC7DAEC21CBFDED00ABBDB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC7DAEA21CBFDED00ABBDB0 /* Main.storyboard */; };
+		CFC7DAEE21CBFDEF00ABBDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC7DAED21CBFDEF00ABBDB0 /* Assets.xcassets */; };
+		CFC7DAF121CBFDEF00ABBDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC7DAEF21CBFDEF00ABBDB0 /* LaunchScreen.storyboard */; };
+		CFF1E15021CEC8380095C308 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1E14F21CEC8380095C308 /* GlobalVariables.swift */; };
+		CFF1E15221CEE22B0095C308 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1E15121CEE22B0095C308 /* PhotosViewController.swift */; };
+		CFF1E15421CEE2470095C308 /* PowerPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF1E15321CEE2470095C308 /* PowerPointViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF02A4AD21CD13B200FF6CA8 /* TCPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
+		CF064BCE21D0EB120051F53A /* SpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyViewController.swift; sourceTree = "<group>"; };
+		CF3DF40C21D26701004B44D6 /* DesktopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopViewController.swift; sourceTree = "<group>"; };
+		CF560CC721CE8A4100FFD8A8 /* AllRemotesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRemotesCollectionViewController.swift; sourceTree = "<group>"; };
+		CF560CC921CE8E0200FFD8A8 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		CF560CCB21CE8E2300FFD8A8 /* NetflixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixViewController.swift; sourceTree = "<group>"; };
+		CFC7DAE321CBFDED00ABBDB0 /* macRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC7DAE621CBFDED00ABBDB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFC7DAE821CBFDED00ABBDB0 /* RemoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteViewController.swift; sourceTree = "<group>"; };
+		CFC7DAEB21CBFDED00ABBDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFC7DAED21CBFDEF00ABBDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC7DAF021CBFDEF00ABBDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFC7DAF221CBFDEF00ABBDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF1E14F21CEC8380095C308 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		CFF1E15121CEE22B0095C308 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		CFF1E15321CEE2470095C308 /* PowerPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerPointViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC7DAE021CBFDED00ABBDB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC7DADA21CBFDED00ABBDB0 = {
+			isa = PBXGroup;
+			children = (
+				CFC7DAE521CBFDED00ABBDB0 /* macRemote */,
+				CFC7DAE421CBFDED00ABBDB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC7DAE421CBFDED00ABBDB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC7DAE321CBFDED00ABBDB0 /* macRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC7DAE521CBFDED00ABBDB0 /* macRemote */ = {
+			isa = PBXGroup;
+			children = (
+				CFC7DAE621CBFDED00ABBDB0 /* AppDelegate.swift */,
+				CFF1E14F21CEC8380095C308 /* GlobalVariables.swift */,
+				CF02A4AD21CD13B200FF6CA8 /* TCPClient.swift */,
+				CF560CC921CE8E0200FFD8A8 /* ConnectViewController.swift */,
+				CF560CC721CE8A4100FFD8A8 /* AllRemotesCollectionViewController.swift */,
+				CFC7DAE821CBFDED00ABBDB0 /* RemoteViewController.swift */,
+				CF560CCB21CE8E2300FFD8A8 /* NetflixViewController.swift */,
+				CFF1E15121CEE22B0095C308 /* PhotosViewController.swift */,
+				CFF1E15321CEE2470095C308 /* PowerPointViewController.swift */,
+				CF064BCE21D0EB120051F53A /* SpotifyViewController.swift */,
+				CF3DF40C21D26701004B44D6 /* DesktopViewController.swift */,
+				CFC7DAEA21CBFDED00ABBDB0 /* Main.storyboard */,
+				CFC7DAEF21CBFDEF00ABBDB0 /* LaunchScreen.storyboard */,
+				CFC7DAED21CBFDEF00ABBDB0 /* Assets.xcassets */,
+				CFC7DAF221CBFDEF00ABBDB0 /* Info.plist */,
+			);
+			path = macRemote;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC7DAE221CBFDED00ABBDB0 /* macRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC7DAF521CBFDEF00ABBDB0 /* Build configuration list for PBXNativeTarget "macRemote" */;
+			buildPhases = (
+				CFC7DADF21CBFDED00ABBDB0 /* Sources */,
+				CFC7DAE021CBFDED00ABBDB0 /* Frameworks */,
+				CFC7DAE121CBFDED00ABBDB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macRemote;
+			productName = macRemote;
+			productReference = CFC7DAE321CBFDED00ABBDB0 /* macRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC7DADB21CBFDED00ABBDB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Thomas Kittel";
+				TargetAttributes = {
+					CFC7DAE221CBFDED00ABBDB0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CFC7DADE21CBFDED00ABBDB0 /* Build configuration list for PBXProject "macRemote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC7DADA21CBFDED00ABBDB0;
+			productRefGroup = CFC7DAE421CBFDED00ABBDB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC7DAE221CBFDED00ABBDB0 /* macRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC7DAE121CBFDED00ABBDB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC7DAF121CBFDEF00ABBDB0 /* LaunchScreen.storyboard in Resources */,
+				CFC7DAEE21CBFDEF00ABBDB0 /* Assets.xcassets in Resources */,
+				CFC7DAEC21CBFDED00ABBDB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC7DADF21CBFDED00ABBDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC7DAE921CBFDED00ABBDB0 /* RemoteViewController.swift in Sources */,
+				CF3DF40D21D26701004B44D6 /* DesktopViewController.swift in Sources */,
+				CFF1E15221CEE22B0095C308 /* PhotosViewController.swift in Sources */,
+				CFC7DAE721CBFDED00ABBDB0 /* AppDelegate.swift in Sources */,
+				CF064BCF21D0EB120051F53A /* SpotifyViewController.swift in Sources */,
+				CF560CCA21CE8E0200FFD8A8 /* ConnectViewController.swift in Sources */,
+				CFF1E15421CEE2470095C308 /* PowerPointViewController.swift in Sources */,
+				CF560CCC21CE8E2300FFD8A8 /* NetflixViewController.swift in Sources */,
+				CFF1E15021CEC8380095C308 /* GlobalVariables.swift in Sources */,
+				CF560CC821CE8A4100FFD8A8 /* AllRemotesCollectionViewController.swift in Sources */,
+				CF02A4AE21CD13B200FF6CA8 /* TCPClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFC7DAEA21CBFDED00ABBDB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC7DAEB21CBFDED00ABBDB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFC7DAEF21CBFDEF00ABBDB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC7DAF021CBFDEF00ABBDB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFC7DAF321CBFDEF00ABBDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFC7DAF421CBFDEF00ABBDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC7DAF621CBFDEF00ABBDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQUGYT85LM;
+				INFOPLIST_FILE = macRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kittelTom.macRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CFC7DAF721CBFDEF00ABBDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQUGYT85LM;
+				INFOPLIST_FILE = macRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kittelTom.macRemote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC7DADE21CBFDED00ABBDB0 /* Build configuration list for PBXProject "macRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC7DAF321CBFDEF00ABBDB0 /* Debug */,
+				CFC7DAF421CBFDEF00ABBDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC7DAF521CBFDEF00ABBDB0 /* Build configuration list for PBXNativeTarget "macRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC7DAF621CBFDEF00ABBDB0 /* Debug */,
+				CFC7DAF721CBFDEF00ABBDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC7DADB21CBFDED00ABBDB0 /* Project object */;
+}
