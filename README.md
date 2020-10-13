@@ -2,6 +2,15 @@
 
 This iOS-App allows to control some apps on a mac remotely via the iPhone. As a communication protocol TCP is used. 
 
+### Preview
+
+<div align="center">
+  <img src="preview/1_main.PNG" width="200px">
+  <img src="preview/2_ip.PNG" width="200px">
+  <img src="preview/3_spotify.PNG" width="200px">
+  <img src="preview/4_pp.PNG" width="200px">
+</div>
+
 ### Controllable Apps are
 * Netflix (pause/play)
 * Photos App (select images, present images, show next/previous image)
@@ -9,18 +18,5 @@ This iOS-App allows to control some apps on a mac remotely via the iPhone. As a 
 * Spotify (pause/play, play next/previous song)
 * Desktop (switch between different Desktops)
 
-### Preview
+## How to use
 
-<div align="center">
-  <img src="preview/1_main.png" width="200px">
-  <img src="preview/2_ip.png" width="200px">
-  <img src="preview/3_pp.png" width="200px">
-  <img src="preview/4_spotify.png" width="200px">
-</div>
-
-<p float="left">
-  <img src="preview/1_main.png" width="100" />
-  <img src="preview/2_ip.png" width="100" /> 
-  <img src="preview/3_pp.png" width="100" />
-  <img src="preview/4_spotify.png" width="100" />
-</p>
