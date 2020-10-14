@@ -1,4 +1,11 @@
-macRemoteServer.iml
-macRemoteServer/.idea
+# Java
+*.iml
+*.class
+.idea/
+IntelliJ/
+
+# XCode
 xcuserdata/
-macRemoteServer/out/
+
+# Mac-App
+macRemoteServer/*.app
