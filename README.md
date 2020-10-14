@@ -7,8 +7,8 @@ This iOS-App allows to control some apps on a mac remotely via the iPhone. As a 
 <div align="center">
   <img src="preview/1_main.png" width="200px">
   <img src="preview/2_ip.png" width="200px">
-  <img src="preview/3_netflix.PNG" width="200px">
-  <img src="preview/4_photos.PNG" width="200px">
+  <img src="preview/3_netflix.png" width="200px">
+  <img src="preview/4_photos.png" width="200px">
 </div>
 
 ### Controllable Apps are
